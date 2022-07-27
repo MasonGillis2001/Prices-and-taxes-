@@ -11,7 +11,7 @@ flower_pot_total = flowerpot * flowerpot_price
 flower_seeds_total = flower_seeds * flower_seeds_price
 soil_total = soil * soil_price
 total = flower_pot_total + flower_seeds_total + soil_total
-tax = tax_rate * total
+tax = total * tax_rate
 grand_total = total + tax
 
 print(f'Your total for flower pots will be {flower_pot_total}, your total for seeds will be {flower_seeds_total}, your total for soil will {soil_total}, \
